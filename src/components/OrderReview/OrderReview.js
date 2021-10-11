@@ -19,9 +19,9 @@ const OrderReview = () => {
 
     const history = useHistory();
     const handlePlaceOrder = () => {
-        setCart([]);
-        clearTheCart();
-        history.push("/placeorder");
+        /* setCart([]);
+        clearTheCart(); */
+        history.push("/shipping");
     }
     return (
         <div className="shop-container">
@@ -38,7 +38,7 @@ const OrderReview = () => {
 
 
                         <button onClick={handlePlaceOrder} className="btn-regular">
-                            Place Order
+                            Proceed To Shipping
                         </button>
 
 
